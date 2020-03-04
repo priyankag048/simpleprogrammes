@@ -1,0 +1,17 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
+  },
+  "exclude": [
+    "node_modules",
+    "dist/",
+    "src/**/*.test.ts"
+  ],
+  "include": [
+    "src/"
+  ]
+}
